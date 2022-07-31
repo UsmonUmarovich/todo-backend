@@ -23,8 +23,12 @@
         style="background-color: rgb(246, 246, 246); padding: 13px; width: 370px; margin: 0 auto;"
       >
         <input type="checkbox" />
-        <label>{{todo}}</label>
-        <a href="todo/delete/{{_id}}" style="color: red; margin-left: 230px;" class="btn btn-ghost btn-sm">
+        <label style="position: absolute;">{{todo}}</label>
+        <a
+          href="todo/delete/{{_id}}"
+          style="color: red; margin-left: 280px;"
+          class="btn btn-ghost btn-sm"
+        >
           X
         </a>
       </li>
